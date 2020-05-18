@@ -149,6 +149,7 @@ h1 {
 h2 {
   font-family: 'Abel', sans-serif;
   text-align: center;
+  font-size: calc(1.0rem + 3vw);
 }
 
 p {
