@@ -1,192 +1,94 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> 
+<html>
 
-<!-- Font set up -->
+<!-- Head and meta data set up, link reference to font -->
+    <head>
+        <title>Latvia Guide</title>
+        <meta name="title" content="Latvia Guide">
+        <meta name="author" content="YeetACoin">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <html lang="en"> </html>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" >
+    </head>
 
-<head>
-<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
-<style>
-body {
-    font-family: 'Abel';font-size: 22px;
-}
-</style>
-</head>
-<body text="white">
-
-<!-- Header set up -->
-
-<head>
-<title>Latvia Guide</title>
- <link rel="shortcut icon" type="image/png" href="https://github.com/YeetACoin/yeetacoin.github.io/tree/master/image/Latviaflag.png">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  margin: 0;
-}
-
-/* Style the header */
-.header {
-  background-color: #140606;
-  padding: 1px;
-  opacity: 0.7;
-  font-family: 'Abel';
-  text-align: center;
-  height: 100px;
-}
-</style>
-</head>
-
-<!-- Background styling -->
-
-<style>
-img.background {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-  filter: blur(2px);
-}
-</style>
-
- 
-<style>
-body {
-   background-image: url('https://s14-eu5.startpage.com/cgi-bin/serveimage?url=https%3A%2F%2Flp-cms-production.imgix.net%2F2019-06%2F97462297.jpg%3Ffit%3Dcrop%26q%3D40%26sharp%3D10%26vib%3D20%26auto%3Dformat%26ixlib%3Dreact-8.6.4&sp=fce6d83df6803e98a12cd7f60d771d7b&anticache=960832');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
- }
-</style>
-
-
-  
-<!-- Content formatting -->
 
 <body>
-<style>
-.column {
-  float: left;
-  padding: 0px;
-}
+<body class="index"> 
 
-.column.side {
-  width: 20%;
-}
-.column.middle {
-  width: 60%;
-   background-color: rgb(20, 6, 6);
-  background-color: rgba(20, 6, 6, 0.5);
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;
-  }
-  
-  </style>
+    <!--Here is the container so I can get the footer to stick to the bottom.
+It will wrap around the Header, the body and the footer -->    
 
-<div class="header">
-  <h1>LATVIA</h1>
-</div>
 
-  <!-- Navbar styling, make it more responsive -->
- 
- <div class="navbar">
-  <a href="index.html">Home</a>
-  <a href="geography.html">Geography</a>
-  <a href="history.html">History</a>
-  <a href="culture.html">Culture</a>
-  <a href="gastronomy.html">Gastronomy</a>
-  <a href="travel.html">Travel</a>
-  </div>
- 
- <style>
- .navbar {
-  width: 100%;
-  background-color: #8B0000;
-  overflow: auto;
-  </style>
- 
- <style>
-  .navbar a {
-  float: left;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: bold;
-  width: 14%;
-  text-align: center; 
-  </style>
-  
- <style> 
-  .navbar a:hover {
-  background-color: #c94f4f;
-  }
-</style>
+<div id="container">       
 
- <style> 
-.navbar a.active {
-  background-color: #b03636;
-}
-</style>
 
-<style>
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left;
-    </style>
-    
-   
-    
-  <!-- A bit more of formating for the side row -->  
-    
+<!--Header (Kopfzeile) set up content-->    
+
+<h1>LATVIA</h1>
+
+
+
+<!--navbar set up-->      
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="geography.html">Geography</a></li>   
+        <li><a href="history.html">History</a></li>   
+        <li><a href="culture.html">Culture</a></li>   
+        <li><a href="gastronomy.html">Gastronomy</a></li>   
+        <li><a href="travel.html">Travel</a></li>  
+    </ul>
+
+
+
+
+<!--Formatting of the three columns-->
+
 <div class="row">
-  <div class="column side">
-    <h2></h2>
-    <p></p>
-  </div>
-  
-   <!-- Content for the Homepage -->
-  
-  <div class="column middle">
-    <center><h2>Labdien!</h2>
-    <p>Latvia, the country of music, arts and kartupelus. </p>
-    <p> Located in Eastern Europe at the Baltic Sea, it is the middle sibling of Estonia and its best buddy Lithuania. </p>
-    <p> Best known for its unique culture, Latvians are very proud of their traditions and all cultural aspects associated with it.</p>
-    <p>Latvia and the Baltic States have a love for singing and dancing . 
-     Latvia is famous for choir singing competitions that bring people to Latvia every year. 
-     The forest and folklore play an important part in village life throughout Latvia. 
-     The celebration of Janis, the first day of summer solstice, is a tradition that has to experienced.</p>
+        <div class="column side">
+          <h2></h2>
+          <p></p>
+</div>
+    
+<!--middle content, main content-->
 
- <!-- Footer styling and link -->
-    <style>
-    .footer {
-  background-color: #8B0000;
-  padding: 1px;
-  text-align: center;
- </style> 
- 
- <style>
-a:link {
-  color: white;
-  background-color: transparent;
-</style>
-<div class="footer">
-  <p><p>Visit
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" title="travelguides.lv">here</a> for more information!</p></p>
+<div class="column middle">
+            <h2>Labdien!</h2>
+        <p>Latvia, the country of music, arts and kartupelus. </p>
+
+        <p> Located in Eastern Europe at the Baltic Sea, it is the middle sibling of Estonia and its best buddy Lithuania. </p>
+
+        <p> Best known for its unique culture, Latvians are very proud of their traditions and all cultural aspects associated with it.</p>
+
+        <p>Latvia and the Baltic States have a love for singing and dancing . 
+
+        Latvia is famous for choir singing competitions that bring people to Latvia every year. 
+
+        The forest and folklore play an important part in village life throughout Latvia. 
+
+        The celebration of Janis, the first day of summer solstice, is a tradition that has to experienced.</p>
+  </div>
+    
+
+<div class="column side">
+            <h2></h2>
+            <p></p>
+          </div>
+</div>        
+
+	
+
+<!--Footer text-->
+<div id="footer">
+  <p>Visit
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" title="travelguides.lv" >here</a> for more information!</p>
+</div id="footer">
+
+
+<!--closure for content wrap-->
 </div>
 
- 
- </body>
+</body>   
+</body>
 </html> 

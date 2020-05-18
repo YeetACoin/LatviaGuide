@@ -1,246 +1,121 @@
- <!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> 
+<html>
 
-<!-- Font set up -->
+<!-- Head and meta data set up, link reference to font -->
+    <head>
+        <title>Latvia Guide</title>
+        <meta name="title" content="Latvia Guide">
+        <meta name="author" content="YeetACoin">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <html lang="en"> </html>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet" >
+    </head>
 
-<head>
-<link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
-<style>
-body {
-    font-family: 'Abel';font-size: 22px;
-}
-</style>
-</head>
-<body text="white">
-
-<!-- Header set up -->
-
-<head>
-<title>Latvia Guide</title>
- <link rel="shortcut icon" type="image/png" href="https://github.com/YeetACoin/yeetacoin.github.io/tree/master/image/Latviaflag.png">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  margin: 0;
-}
-
-/* Style the header */
-.header {
-  background-color: #140606;
-  padding: 1px;
-  opacity: 0.7;
-  font-family: 'Abel';
-  text-align: center;
-  height: 100px;
-}
-</style>
-</head>
-
-<!-- Background styling -->
-
-<style>
-img.background {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-  filter: blur(2px);
-}
-</style>
-
- 
-<style>
-body {
-   background-image: url('https://s16-us2.startpage.com/cgi-bin/serveimage?url=http%3A%2F%2Fwww.nordicjobsworldwide.com%2Fwp-content%2Fuploads%2F2018%2F04%2FRiga-Altstadt-1.jpg&sp=9d202b3c294f747d24b0738dd3f5364c&anticache=815442');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
- }
-</style>
-
-
-  
-<!-- Content formatting -->
 
 <body>
-<style>
-.column {
-  float: left;
-  padding: 0px;
-}
+<body class="history">
 
-.column.side {
-  width: 20%;
-}
-.column.middle {
-  width: 60%;
-   background-color: rgb(20, 6, 6);
-  background-color: rgba(20, 6, 6, 0.6);
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;
-  }
-  
-  </style>
+    <!--Here is the container so I can get the footer to stick to the bottom.
+It will wrap around the Header, the body and the footer -->    
 
-<div class="header">
-  <h1>LATVIA</h1>
-</div>
 
-   <!-- Navbar styling, make it more responsive -->
- 
- <div class="navbar">
-  <a href="index.html">Home</a>
-  <a href="geography.html">Geography</a>
-  <a href="history.html">History</a>
-  <a href="culture.html">Culture</a>
-  <a href="gastronomy.html">Gastronomy</a>
-  <a href="travel.html">Travel</a>
-  </div>
- 
- <style>
- .navbar {
-  width: 100%;
-  background-color: #8B0000;
-  overflow: auto;
-  </style>
- 
- <style>
-  .navbar a {
-  float: left;
-  padding: 12px;
-  color: white;
-  text-decoration: none;
-  font-size: 17px;
-  font-weight: bold;
-  width: 14%;
-  text-align: center; 
-  </style>
-  
- <style> 
-  .navbar a:hover {
-  background-color: #c94f4f;
-  }
-</style>
+<div id="container">       
 
- <style> 
-.navbar a.active {
-  background-color: #b03636;
-}
-</style>
 
-<style>
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left;
-    </style>
-    
-   
-    
-  <!-- A bit more of formating for the side row -->  
-    
+<!--Header (Kopfzeile) set up content-->    
+
+<h1>LATVIA</h1>
+
+
+
+<!--navbar set up-->      
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="geography.html">Geography</a></li>   
+        <li><a class="active" href="history.html">History</a></li>   
+        <li><a href="culture.html">Culture</a></li>   
+        <li><a href="gastronomy.html">Gastronomy</a></li>   
+        <li><a href="travel.html">Travel</a></li>  
+    </ul>
+
+
+
+
+<!--Formatting of the three columns-->
+
 <div class="row">
-  <div class="column side">
-    <h2></h2>
-    <p></p>
-  </div>
-  
-   <!-- Content for the History part -->
-   
- <!-- Style for the image for responsiveness -->
-<style>
-.responsive {
-  width: 60%;
-  height: auto;
-}
-</style>
+        <div class="column side">
+          <h2></h2>
+          <p></p>
+</div>
+    
+<!--middle content, main content-->
 
-<!-- Style to align the text correctly -->
+<div class="column middle">
+            <h2>History</h2>
+              <div class="History text"> 
+            <p>Latvia has, like neighbouring Estonia and Lithuania, been an important trading centre and strategic pawn in the Baltic region. 
+              The various Latvian tribes were self-governing until the end of the 13th century when Teutonic knights conquered the territory. 
+            <img src="https://s17-us2.startpage.com/cgi-bin/serveimage?url=http%3A%2F%2Fen.euro-consulting-center.com%2Fimages%2FLatvia%2FGeneral%2F666px-Livland_15jh.png&sp=7b396e659f72bacd809c43f7e050a10b&anticache=194940" 
+            alt="Historical map" class=responsive-history-map width="200" height="150" >
+            Latvia was then subject to sporadic invasions by the Poles and the Swedes until the 18th century when Russia, under Peter the Great, emerged as a major European power.</p>
+           
+            <p>The entire territory of modern Latvia was under Russian control from 1795 until 1918, when the Latvian National Council proclaimed it a free state. 
+              That freedom didn't last long though, and in 1940 the country was invaded by the Soviets. Nazi forces displaced them the following year before the Red Army invaded once again in 1944 when Latvia was incorporated into the Soviet Union.</p>
 
-<style>
-div.b {
-  text-align: left;
-  padding: 10px;
- }
- </style>
- 
-<!-- Text with image -->
+            <p>Protests against Soviet control and the campaign for democracy and independence began in 1986 and gathered pace with the formation of the Popular Front of Latvia in 1988. 
+              The Latvian parliament declared independence on 4 May 1990, a day still marked as a national holiday. Full independence was finally achieved following a referendum in 1991, 
+              with Latvia being admitted into the UN in September 1991.</p>
 
-  <div class="column middle">
-  
-    <center><h2>History</h2>
-   <div class="b"> 
- <p>Latvia has, like neighbouring Estonia and Lithuania, been an important trading centre and strategic pawn in the Baltic region. The various Latvian tribes were self-governing until the end of the 13th century when Teutonic knights conquered the territory. 
- <img src="https://s17-us2.startpage.com/cgi-bin/serveimage?url=http%3A%2F%2Fen.euro-consulting-center.com%2Fimages%2FLatvia%2FGeneral%2F666px-Livland_15jh.png&sp=7b396e659f72bacd809c43f7e050a10b&anticache=194940" alt="Historical map" class=responsive width="200" height="150" align="right">
- Latvia was then subject to sporadic invasions by the Poles and the Swedes until the 18th century when Russia, under Peter the Great, emerged as a major European power.</p>
+            <p>Latvia joined NATO in 2004 and was admitted into the EU along with nine other states, including Estonia and Lithuania later the same year. 
+              The Lat, Latvia's currency since 1993, was then replaced by the Euro in January 2014.</p>
 
+            <p>The suppression of the Latvian language and culture during the Soviet era has left a legacy of hostility: 
+              in some areas the ethnic Russian minority are subject to discrimination and, although there has been no serious conflict between the communities, it remains a delicate issue.</p>
 
-<p>The entire territory of modern Latvia was under Russian control from 1795 until 1918, when the Latvian National Council proclaimed it a free state. That freedom didn't last long though, and in 1940 the country was invaded by the Soviets. Nazi forces displaced them the following year before the Red Army invaded once again in 1944 when Latvia was incorporated into the Soviet Union.</p>
-
-<p>Protests against Soviet control and the campaign for democracy and independence began in 1986 and gathered pace with the formation of the Popular Front of Latvia in 1988. The Latvian parliament declared independence on 4 May 1990, a day still marked as a national holiday. Full independence was finally achieved following a referendum in 1991, with Latvia being admitted into the UN in September 1991.</p>
-
-<p>Latvia joined NATO in 2004 and was admitted into the EU along with nine other states, including Estonia and Lithuania later the same year. The Lat, Latvia's currency since 1993, was then replaced by the Euro in January 2014.</p>
-
-<p>The suppression of the Latvian language and culture during the Soviet era has left a legacy of hostility: in some areas the ethnic Russian minority are subject to discrimination and, although there has been no serious conflict between the communities, it remains a delicate issue.</p>
-
-<p>The capital, Riga, was founded as a trading post in 1201 and has preserved many aspects of its long history, with architectural styles spanning eight centuries and a historic old town that was declared a UNESCO World Heritage Site in 1997. Riga was named European Capital of Culture in 2014 and remains an enticing destination for tourists.</p>
+            <p>The capital, Riga, was founded as a trading post in 1201 and has preserved many aspects of its long history, 
+              with architectural styles spanning eight centuries and a historic old town that was declared a UNESCO World Heritage Site in 1997. Riga was named European Capital of Culture in 2014 and remains an enticing destination for tourists.</p>
     <p>
-    
-    <center> <h2>Important Latvians </h2> </center>
- <ul style="list-style-type:disc;">
-  <li>Andrejs Pumpurs (1841-1902): Author of important Latvian epos</li>
-  <li>Krišjānis Barons (1835-1923): Collector of Latvian folk songs</li>
-  <li>Krišjānis Valdemārs (1825-1891): Inspired Latvian naval movement</li>
-  <li>Jānis Čakste (1859-1927): Independence activist</li>
-  <li>Colonel Frīdrihs Briedis (1888-1918): World War I leader</li>  
-  <li>Oskars Kalpaks (1882-1919): Leader of independent Latvian forces</li>
-  <li>Rūdolfs Blaumanis (1862-1908): Writer and poet</li>  
-  <li>Rainis (1865-1929): National poet</li>
-  <li>Aspazija (1865-1943): Writer, Playwright</li>  
-  <li>Eduards Veidenbaums (1867-1892): Poet and translator</li>
-</ul> 
-    
-    </center>
-  </div>
 
-  <div class="column side">
-    <h2></h2>
-    <p></p>
+
+      <h2>Important Latvians </h2>
+      <ul-History >
+       <li>Andrejs Pumpurs (1841-1902): Author of important Latvian epos</li>
+       <li>Krišjānis Barons (1835-1923): Collector of Latvian folk songs</li>
+       <li>Krišjānis Valdemārs (1825-1891): Inspired Latvian naval movement</li>
+       <li>Jānis Čakste (1859-1927): Independence activist</li>
+       <li>Colonel Frīdrihs Briedis (1888-1918): World War I leader</li>  
+       <li>Oskars Kalpaks (1882-1919): Leader of independent Latvian forces</li>
+       <li>Rūdolfs Blaumanis (1862-1908): Writer and poet</li>  
+       <li>Rainis (1865-1929): National poet</li>
+       <li>Aspazija (1865-1943): Writer, Playwright</li>  
+       <li>Eduards Veidenbaums (1867-1892): Poet and translator</li>
+      </ul-History> 
+     
   </div>
+    
+
+<div class="column side">
+            <h2></h2>
+            <p></p>
+          </div>
+</div>        
+
+	
+
+<!--Footer text-->
+<div id="footer">
+  <p>Visit
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" title="travelguides.lv" >here</a> for more information!</p>
+</div id="footer">
+
+
+<!--closure for content wrap-->
 </div>
-  
+
+
 </body>
-
- <!-- Footer styling and link -->
-    <style>
-    .footer {
-  background-color: #8B0000;
-  padding: 0px;
-  text-align: center;
- </style> 
- 
- <style>
-a:link {
-  color: white;
-  background-color: transparent;
-</style>
-<div class="footer">
-  <p><p>Visit
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" title="travelguides.lv">here</a> for more information!</p></p>
-</div>
-}
-
- </body>
+</body>
 </html> 
