@@ -22,7 +22,6 @@
     <!--Here is the container so I can get the footer to stick to the bottom.
 It will wrap around the Header, the body and the footer -->    
 
-
 <div id="container">       
 
 
@@ -38,7 +37,7 @@ It will wrap around the Header, the body and the footer -->
         <li><a class="active" href="geography.html"><i class="fas fa-mountain fa-xs"></i>Geography</a></li>   
         <li><a href="history.html"><i class="fas fa-landmark fa-sm"></i>History</a></li>   
         <li><a href="culture.html"><i class="fas fa-theater-masks fa-sm"></i>Culture</a></li>   
-        <li><a href="gastronomy.html"><i class="fas fa-utensils fa-sm"></i>Gastronomy</a></li>   
+        
     </ul>
 
 
@@ -56,7 +55,94 @@ It will wrap around the Header, the body and the footer -->
 
 <div class="column middle">
             <h2>Geography</h2>
-        <p></p>
+
+            <p>Latvia is generally a very flat country of low-lying plains, largely covered by forest. There are some low hils in the west and far southeast.
+
+              A few high hills are found to the east of Riga, with the highest point being the Gaizinkalns at 311.6 m (1,022 ft).
+              
+              Small lakes and swamps dot the countryside. Important rivers include the Daugava, Gauja, Lielupe, Venta and Salaca.</p>
+            <h3>The gorgeous landscapes of Latvia</h3>
+<!--VorschauBilder-->
+            <div class="column">
+            <img src="https://www.latvia.travel/sites/default/files/editor/instagram/sigulda-gauja-valley-latvia-travel.jpg" 
+            style="width:100%" 
+            onclick="openModal();currentSlide(1)" 
+            class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="https://www.latvia.travel/sites/default/files/editor/instagram/kemeri-national-park-latvia-travel.jpg" 
+          style="width:100%" 
+          onclick="openModal();currentSlide(2)" 
+          class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="https://www.latvia.travel/sites/default/files/editor/instagram/priezu-mezs-latvia-travel.jpg" 
+          style="width:100%" 
+          onclick="openModal();currentSlide(3)" 
+          class="hover-shadow cursor">
+        </div>
+        <div class="column">
+          <img src="https://www.latvia.travel/sites/default/files/editor/instagram/saulraksti-balta-kapa-latvia-travel.jpg" 
+          style="width:100%" 
+          onclick="openModal();currentSlide(4)" 
+          class="hover-shadow cursor">
+  </div>
+</div>
+
+<!--angezeigtes Bild -->
+<div id="myModal" class="modal">
+    <span class="close cursor" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides">
+        <div class="numbertext">1 / 4</div>
+        <img src="https://www.latvia.travel/sites/default/files/editor/instagram/sigulda-gauja-valley-latvia-travel.jpg" 
+        style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">2 / 4</div>
+        <img src="https://www.latvia.travel/sites/default/files/editor/instagram/kemeri-national-park-latvia-travel.jpg" 
+        style="width:100%">
+      </div>
+  
+      <div class="mySlides">
+        <div class="numbertext">3 / 4</div>
+        <img src="https://www.latvia.travel/sites/default/files/editor/instagram/priezu-mezs-latvia-travel.jpg" 
+        style="width:100%">
+      </div>
+      
+      <div class="mySlides">
+        <div class="numbertext">4 / 4</div>
+        <img src="https://www.latvia.travel/sites/default/files/editor/instagram/saulraksti-balta-kapa-latvia-travel.jpg" 
+        style="width:100%">
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+  
+ <!--VorschauBild in der Gallerie--> 
+      <div class="column">
+        <img class="demo cursor" src="https://www.latvia.travel/sites/default/files/editor/instagram/sigulda-gauja-valley-latvia-travel.jpg" 
+        style="width:100%" onclick="currentSlide(1)" alt="Gauja River Valley at Sigulda">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://www.latvia.travel/sites/default/files/editor/instagram/kemeri-national-park-latvia-travel.jpg" 
+        style="width:100%" onclick="currentSlide(2)" alt="Great Kemeri Bog Boardwalk">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://www.latvia.travel/sites/default/files/editor/instagram/priezu-mezs-latvia-travel.jpg" 
+        style="width:100%" onclick="currentSlide(3)" alt="One of the many pine forests">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://www.latvia.travel/sites/default/files/editor/instagram/saulraksti-balta-kapa-latvia-travel.jpg" 
+        style="width:100%" onclick="currentSlide(4)" alt="White Beach Dunes of Saulkrasti">
+      </div>
+    </div>
   </div>
     
 
@@ -77,7 +163,7 @@ It will wrap around the Header, the body and the footer -->
 
 <!--closure for content wrap-->
 </div>
-
+<script src="javascript.js"></script> 
 </body> 
 </body>
 </html> 
